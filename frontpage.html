@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="front.css">
+
+
+</head>
+
+<body>
+    <div>
+        <H4 class="vibrate">WELCOME TEST</H4>
+    </div>
+    <div align="center" id="block1">
+        <p id="main">Once again a warm welcome .Given below there are some challenges specially designed for you
+            . Inoder to make the game smoother for u there are some rules and regulation.After reading rules and
+            regulation click on agree for starting the challenges </p>
+        <h2>Rules and Regulation</h2>
+        <div>
+            <li>Don't close the window after the games starts.You can minimize it or swap the browser tabs
+            </li>
+            <li>
+                There is no timer you can take as much of time u want
+            </li>
+            <li>Please don't disclose the information related suprise .Let others too crack it.</li>
+            <li>
+                In case any error or doubt please contact the admin
+            </li>
+        </div>
+        <button type="button" id="agree" onclick="submitt1()">Agree</button>
+    </div>
+    <div id="block2">
+        <p>hiii</p>
+    </div>
+
+
+    <script>
+        document.getElementById("block2").style.display = "none"
+
+        function submitt1() {
+            document.getElementById("block1").style.display = "none";
+            document.getElementById("block2").style.display = "block"
+
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

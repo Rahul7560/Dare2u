@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+   
+}
+body{
+    background: radial-gradient(circle, rgba(252,252,252,1) 0%, rgba(197,216,237,1) 100%);
+}
+
+
+@media (max-width: 550px) {
+    #head{
+         padding: 30px;
+         background: linear-gradient(90deg, rgba(91,146,236,1) 0%, rgba(192,194,247,1) 59%);
+
+         -webkit-box-shadow: -1px 0px 26px 3px rgba(176,169,176,1);
+         -moz-box-shadow: -1px 0px 26px 3px rgba(176,169,176,1);
+          box-shadow: -1px 0px 26px 3px rgba(176,169,176,1);
+         text-align: center;
+         color: rgb(10, 10, 12);
+          text-shadow: 2px 2px 0 #e9eef5, 2px -2px 0 #f9fafc, -2px 2px 0 #f9fafc, -2px -2px 0 #f9fafc, 2px 0px 0 #f9fafc, 0px 2px 0 #f9fafc, -2px 0px 0 #f9fafc, 0px -2px 0 #f9fafc;
+
+    }
+    #h4{
+        padding: 20px;
+        text-align: center;
+        font-style: italic;
+        word-spacing: 3px;
+        line-height: 25px;
+    }
+    #login{
+        margin: auto;
+        width: 200px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 8px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color:rgb(32, 10, 22);
+        background: linear-gradient(90deg, rgba(91,146,236,1) 0%, rgba(192,194,247,1) 59%);
+
+        justify-content: center;
+        -webkit-box-shadow: -1px 0px 26px 3px rgba(176,169,176,1);
+        -moz-box-shadow: -1px 0px 26px 3px rgba(176,169,176,1);
+         box-shadow: -1px 0px 26px 3px rgba(176,169,176,1);
+        text-align: center;
+    }
+    #data1{
+        width: 180px;
+        margin: auto;  
+        padding: 8px;
+         text-align: center; 
+         }
+    #button{
+        background: rgb(101, 101, 238);
+        border-radius: 10px;
+        font-weight: bolder;
+        font-size: small;
+        width: 100px;
+        color: white;
+        font-weight: bolder;
+        padding: 8px;
+        margin-top: 10px;
+        margin: 15px auto;
+    }
+    #whatsapp{
+        margin: 0px  auto;
+        
+        text-decoration: none;
+        background-color: red;
+        padding: 15px;
+        color: white;
+     
+        
+        justify-content: center;}
+        
+
+        
+}
+#test{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: small;
+}
